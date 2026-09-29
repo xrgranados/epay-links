@@ -1,0 +1,78 @@
+#epay-payment {
+    width: 50%;
+    margin: auto;
+}
+
+/* Style for mobile devices */
+@media (max-width: 768px) {
+
+    #epay-payment {
+        width: 100%;
+    }
+}
+#epay-payment-form input,
+#epay-payment-form textarea {
+    background-color: #fff;
+}
+
+#epay-payment-form input {
+    display: block;
+    width: 100%;
+    padding: .594rem 1rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.714;
+    color: #333e48;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    appearance: none;
+    border-radius: 1.375rem;
+    box-shadow: 0;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#epay-card-number {
+    position: relative;
+}
+
+#epay-card-type {
+    position: absolute;
+    text-transform: uppercase;
+    right: 0px;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+#epay-card-success {
+    position: absolute;
+    visibility: hidden;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: url(/wp-content/plugins/epay-links/assets/img/success.png);
+    background-size: cover;
+}
+
+#epay-payment-form button[type=submit] {
+    margin: 15px auto;
+    background-color: #fcae16;
+    font-size: 1.387em;
+    width: 100%;
+    font-weight: 700;
+    white-space: pre-wrap;
+    padding: .907rem 1rem;
+    border-radius: 50px;
+    color: #15212d
+}
+
+.text-center {
+    text-align: center;
+}
+
+.g-recaptcha {
+    margin-top: 20px;
+}
